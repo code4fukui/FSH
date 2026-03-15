@@ -1,6 +1,6 @@
-# FSH test
+# FSH
 
-- FSH to JSON in JavaScript/Deno.
+FSH to JSON in JavaScript/Deno.
 
 [FHIR Shorthand (FSH)](https://hl7.org/fhir/uv/shorthand/) is a domain-specific language for defining the contents of FHIR Resources and Implementation Guides (IG).
 
@@ -22,13 +22,17 @@ console.log(json);
 */
 ```
 
-## test
+## Test
 
 ```sh
 deno test --allow-read ./
 ```
 
-## reference
+## Reference
 
 - [HL7.FHIR.UV.SHORTHAND\FHIR Shorthand - FHIR v4.0.1](https://hl7.org/fhir/uv/shorthand/)
 - [FHIR Shorthand (FSH)](https://fshschool.org/)
+
+## License
+
+MIT License
