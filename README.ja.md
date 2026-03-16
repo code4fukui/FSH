@@ -1,6 +1,6 @@
 # FSH
 
-FHIR Shorthand (FSH) を使ってJSONに変換するJavaScript/Denoのライブラリです。
+FHIR Shorthand (FSH)を使ってJSONに変換するJavaScript/Denoのライブラリです。
 
 FHIR Shorthand (FSH)とは、FHIR Resourceの定義や実装ガイド(IG)の内容を簡潔に記述するためのドメイン特化言語です。
 
