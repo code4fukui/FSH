@@ -1,12 +1,10 @@
 # FSH
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+JavaScript/Deno向けのFHIR Shorthand (FSH) からJSONへの変換ライブラリです。
 
-FHIR Shorthand (FSH) to JSON conversion library in JavaScript/Deno.
+[FHIR Shorthand (FSH)](https://hl7.org/fhir/uv/shorthand/) は、FHIR リソースおよび実装ガイド (IG) の内容を定義するためのドメイン固有言語です。
 
-[FHIR Shorthand (FSH)](https://hl7.org/fhir/uv/shorthand/) is a domain-specific language for defining the contents of FHIR Resources and Implementation Guides (IG).
-
-## Demo
+## デモ
 
 ```js
 import { FSH } from "https://code4fukui.github.io/FSH/FSH.js";
@@ -26,17 +24,17 @@ console.log(json);
 */
 ```
 
-## Test
+## テスト
 
 ```sh
 deno test --allow-read ./
 ```
 
-## Reference
+## 参考
 
 - [HL7.FHIR.UV.SHORTHAND\FHIR Shorthand - FHIR v4.0.1](https://hl7.org/fhir/uv/shorthand/)
 - [FHIR Shorthand (FSH)](https://fshschool.org/)
 
-## License
+## ライセンス
 
 MIT License
